@@ -4,7 +4,7 @@
  * <p>
  * 解法: 优化代码，使用取余操作一次遍历过
  */
-public class Offer58 {
+public class Offer58_2 {
     public static void main(String[] args) {
         System.out.println(reverseLeftWords("abcdefg", 2));
     }
