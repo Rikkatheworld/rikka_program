@@ -5,9 +5,6 @@
  * 解法: [遍历]优化代码，使用取余操作一次遍历过
  */
 public class Offer58_2 {
-    public static void main(String[] args) {
-        System.out.println(reverseLeftWords("abcdefg", 2));
-    }
 
 //    public static String reverseLeftWords(String s, int n) {
 //        char[] chars = s.toCharArray();

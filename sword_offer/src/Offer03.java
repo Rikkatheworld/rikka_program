@@ -9,10 +9,6 @@ import java.util.Set;
  * 解法: [遍历]标记一下是否访问过
  */
 public class Offer03 {
-    public static void main(String[] args) {
-        int[] nums = new int[]{2, 3, 1, 0, 2, 5, 3};
-        System.out.println(findRepeatNumber(nums));
-    }
 
     public static int findRepeatNumber(int[] nums) {
         boolean[] isVisited = new boolean[nums.length];

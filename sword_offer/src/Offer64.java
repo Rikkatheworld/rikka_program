@@ -6,9 +6,6 @@
  * 根据 && 的特性，用来结束递归
  */
 public class Offer64 {
-    public static void main(String[] args) {
-        System.out.println(sumNums(20));
-    }
 
     public static int sumNums(int n) {
         boolean flag = (n > 0) && (n = sumNums(n - 1)) > 0;
